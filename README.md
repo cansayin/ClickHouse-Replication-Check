@@ -1,5 +1,6 @@
 # ClickHouse-Replication-Check
 
+<pre id="example"><code class="language-lang"  style="color: #333; background: #f8f8f8;">
 Usage: check.sh -m <mode> [-u <user>] [-p <pass>] [-l 0|1] [-w <warning>] [-c <critical>] [-h]                                                                                          
 
 	-s <host>	ClickHouse host address (default 'localhost')
@@ -39,3 +40,4 @@ Supported modes:
 	replication_queue_size: check queue size for operations waiting to be performed for each table
 		Default warning threshold: 10
 		Default critical threshold: 20
+</code></pre>
